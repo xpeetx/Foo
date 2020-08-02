@@ -1,5 +1,11 @@
-Git
+Git command line style
 
-Starte nytt reopsistory :	git init
-Sjekk status:			git status
-Legge til filer i repository:	git commit -m "Hva hvem hvorfor?"
+Starte med å lage et nytt repository i en gitt katalog
+
+Starte nytt reopsistory :		git init
+Sjekk status:				git status
+Legge til endrede filer i repository:	git commit -m "Hva hvem hvorfor?"
+
+
+
+
