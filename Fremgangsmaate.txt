@@ -1,0 +1,5 @@
+Git
+
+Starte nytt reopsistory :	git init
+Sjekk status:			git status
+Legge til filer i repository:	git commit -m "Hva hvem hvorfor?"
