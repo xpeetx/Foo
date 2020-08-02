@@ -5,7 +5,28 @@ Starte med å lage et nytt repository i en gitt katalog
 Starte nytt reopsistory :		git init
 Sjekk status:				git status
 Legge til endrede filer i repository:	git commit -m "Hva hvem hvorfor?"
+Vis historikk:				git log
 
 
 
+Oppretter repo på github.com:		New repository -> "Foo" -> create
+Knytter lokalt repo opp til github.com:	git remote add origin https://github.com/xpeetx/Foo.git
+Sjekker at det gikk bra:		git remote -v
+
+Kobling er utført git -> github.com nå må vi dytte filene fra lokalt repo opp til github.com repo vi bruker push
+
+Dytter filene opp til github.com:	git push -u origin master
+
+Ser etter at alt går bra og 100% pushet, tilbake på github.com, klikker velger code og vi ser filene ligger der. :)
+
+Gjør en endring direkte på github.com ending blir commited på github.com og jeg får tilbake lokalt for å se...
+
+Laster ned endriner fra github.com til lokal maskin:	git fetch origin master
+
+Endringene blir funnet og hentet ned til .git katalogen. mine filer er ikke oppdatert enda.
+
+Oppdaterer lokale filer med merge:	git merge origin/master
+git viser hva som blir oppdatert og endret. Åpner lokal fil og ser at endrinene er gjort og nå ligger lokalt i ny versjon
+
+det er en snarvei for å gjøre det samme. istedet for fetch merge kan man bruke git pull origin master
 
